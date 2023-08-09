@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #d6d6d7;
+}
+
+.user {
+  color: #fff;
+  font-weight: 550;
+  position: absolute;
+  top: 34px;
+  right: 27px;
+}
+
+.cart {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  right: 157px;
+  top: 110%;
+}
+
+.Container {
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #131a21;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+  right: 2rem;
+}
+
+.rating {
+  position: relative;
+  top: -6px;
+}
+
+.nav-item {
+  position: absolute;
+  font-weight: bold;
+  right: 300px;
+  top: 25px;
+}
+
+#cart-item {
+  height: 420px;
+  left: 120px;
+  padding: 10px;
+  position: relative;
+  width: 80%;
+}
+
+#cancel-button {
+  position: relative;
+  right: 22px;
+  top: 135px;
+}
+
+#mobile-details {
+  margin-top: 45px;
+}
+
+#product-details {
+  width: 30%;
+  background-color: white;
+  position: relative;
+  left: 160px;
+  padding: 15px;
+  font-size: large;
+  height: 60%;
+  border-radius: 5px;
+}
+
+#rating {
+  position: relative;
+  bottom: 7px;
+}
+
+#PriceDetail {
+  font-size: large;
+  height: fit-content;
+  left: 100px;
+  position: relative;
+  width: 25%;
+}
+
+#AddContainer {
+  position: relative;
+  top: 30px;
+  width: 30%;
+
+  margin: auto;
+}
+
+#sortElement {
+  cursor: pointer;
+  position: absolute;
+  right: 3px;
+  top: 130px;
+  width: 7.6rem;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+#MainContianer {
+  flex-direction: row;
+  gap: 5px;
+  height: 40rem;
+  margin-top: 0.35rem;
+  width: 24.9rem;
+}
+
+#Header-text {
+  font-size: 2.2rem;
+  position: relative;
+  color: #fff;
+}
+
+#itemEdit {
+  display: inline-block;
+  width: 24rem;
+  height: 2rem;
+  margin: 0rem;
+  padding: 0px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: none;
+}
+
+#floatingTextarea {
+  width: 15rem;
+  height: 5rem;
+  margin: 0rem;
+  padding: 0px;
+  word-wrap: "break-word";
+  overflow-wrap: "break-word";
+}
+
+#itemImage {
+  width: 50%;
+  position: relative;
+  object-fit: cover;
+  left: 120px;
+}
+
+#MainImg {
+  width: 24rem;
+}
